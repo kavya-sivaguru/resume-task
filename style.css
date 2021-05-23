@@ -1,0 +1,174 @@
+header{
+    background-color: grey;
+    width: 100%;
+    height: 190px;
+    text-align: center;
+}
+#dp{
+    width: 120px;
+    height: 120px;
+    border-style: dotted;
+    border-color: rgba(255, 208, 0, 0.959);
+    border-radius: 100px;
+    -webkit-box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+     -moz-box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+     box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+}
+h1{
+    position: relative;
+    top: -30px;
+    background-color: rgba(255, 255, 255, 0.863);
+    color: rgba(255, 255, 255, 0.863); 
+ } 
+.name{
+    background-color: rgba(255, 208, 0, 0.959);
+    width: 200px;
+    height: 70px;
+    font-weight: 900;
+    font-size: 30px;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+    top: -105px;
+}
+#contact{
+     text-align: center;
+     margin-bottom: 0px;
+     margin-top: 10px;
+}
+hr{
+    margin: 0px;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
+    color: rgb(66, 66, 66);
+}
+.column1{
+    width: 50%;
+    float: left;
+    border-right-style: solid;
+    border-right-color: gray;
+    border-right-width: 2px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+input[type=range]{
+    float: right;
+}
+h2{
+    color: rgba(0, 0, 0, 0.644);
+    display: inline;
+}
+i{
+  color: rgb(255, 187, 0);
+}
+.skills{
+    text-align: center;
+}
+label{
+    text-align: right;
+}
+.column2{
+    padding-left: 57%;
+    padding-right: 30px;
+    text-align: left;
+    position: relative;
+    top: 30px;
+}
+.black{
+    color: black;
+}
+.title{
+  display: inline;
+}
+
+
+
+
+input[type=range] {
+    -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+    width: 70%; /* Specific width is required for Firefox. */
+    background: transparent; /* Otherwise white in Chrome */
+  }
+  
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+  }
+  
+  input[type=range]:focus {
+    outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+  }
+  
+  input[type=range]::-ms-track {
+    width: 10%;
+    cursor: pointer;
+  
+    /* Hides the slider so custom styles can be added */
+    background: transparent; 
+    border-color: transparent;
+    color: transparent;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid #000000;
+    height: 16px;
+    width: 8px;
+    border-radius: 50px;
+    background: #ffffff;
+    cursor: pointer;
+    margin-top: -4px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
+  }
+
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 10%;
+    height: 8.4px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: yellow;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+  }
+  
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: yellow;
+  }
+  
+  input[type=range]::-moz-range-track {
+    width: 10%;
+    height: 8.4px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: yellow;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+  }
+  
+  input[type=range]::-ms-track {
+    width: 10%;
+    height: 8.4px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    border-width: 16px 0;
+    color: transparent;
+  }
+  input[type=range]::-ms-fill-lower {
+    background: yellow;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  }
+  input[type=range]:focus::-ms-fill-lower {
+    background: yellow;
+  }
+  input[type=range]::-ms-fill-upper {
+    background: yellow;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  }
+  input[type=range]:focus::-ms-fill-upper {
+    background: yellow;
+  }
